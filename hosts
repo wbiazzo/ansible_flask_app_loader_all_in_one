@@ -1,12 +1,12 @@
 [load_balancers]
-frontend1  ansible_ssh_host=frontend1.734d.internal
+frontend1  ansible_ssh_host=frontend1.gkzqf.internal
 
 [app_servers]
-app1  ansible_ssh_host=app1.734d.internal
-app2  ansible_ssh_host=app2.734d.internal
+app1  ansible_ssh_host=app1.gkzqf.internal
+app2  ansible_ssh_host=app2.gkzqf.internal
 
 [database_servers]
-appdb1 ansible_ssh_host=appdb1.734d.internal
+appdb1 ansible_ssh_host=appdb1.gkzqf.internal
 
 [internal:children]
 load_balancers
